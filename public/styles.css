@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    display: flexbox;
+}
+
+.sideNav {
+    height: 100vh;
+
+}
+
+.maincontent {
+    width: 100%;
+
+}
+
+
+.Dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.analytics {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    width: auto;
+    height: 25%;
+    justify-content: space-around;
+}
+
+.elements {
+    background-color: black;
+    height: 90%;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 1rem;
+}
